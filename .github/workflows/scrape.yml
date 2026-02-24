@@ -12,5 +12,5 @@ jobs:
         run: npm install
       - name: Install browsers
         run: npx playwright install chromium --with-deps
-      - name: Scrape for 23f2004211@ds.study.iitm.ac.in
+      - name: Scrape for 23f2004211@ds.tudy.iitm.ac.in
         run: node scrape.js
